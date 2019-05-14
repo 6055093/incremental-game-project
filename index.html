@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Mono"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <div class="coins" id="coinsContainer">
+      <div class="coinCount">
+        <h3 class="count">
+          <span id="btn-counter"></span><br />
+          coins
+        </h3>
+      </div>
+      <div class="bitLogo">
+        <image id="bitcoin" class="logo" src="./imgs/coin.png"></image>
+      </div>
+    </div>
+    <div class="inventory">
+      <div class="achievement" id="achievementId">
+        <div class="text" id="achievementText">Achievement unlocked<br />?</div>
+      </div>
+      <div
+        class="inventoryClass"
+        id="minerInventory"
+        style="visibility: hidden"
+      ></div>
+      <div
+        class="inventoryClass"
+        id="computerInventory"
+        style="visibility: hidden"
+      ></div>
+      <div
+        class="inventoryClass"
+        id="datacenterInventory"
+        style="visibility: hidden"
+      ></div>
+      <div
+        class="inventoryClass"
+        id="supercomputerInventory"
+        style="visibility: hidden"
+      ></div>
+      <div
+        class="inventoryClass"
+        id="quantumcomputerInventory"
+        style="visibility: hidden"
+      ></div>
+      <div
+        class="inventoryClass"
+        id="aiInventory"
+        style="visibility: hidden"
+      ></div>
+      <div
+        class="inventoryClass"
+        id="matrioshkaInventory"
+        style="visibility: hidden"
+      ></div>
+      <div
+        class="inventoryClass"
+        id="simulationInventory"
+        style="visibility: hidden"
+      ></div>
+    </div>
+
+    <div class="data" id="resources">
+      <div class="item" id="itemid" style="display: none; opacity: 0.5">
+        <image
+          class="itemLogo"
+          id="resourceImage"
+          src="./imgs/miner.jpeg"
+        ></image>
+        <div id="resourceText" class="minerText">
+          Miner
+          <br />
+          <image class="smallLogo" src="./imgs/coin.png"></image>
+          50
+        </div>
+        <div class="itmsOwndContainer">
+          <div class="itemsOwned" id="itmsOwnd">0</div>
+        </div>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
